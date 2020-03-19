@@ -41,6 +41,16 @@
   color: #242635;
 }
 
+.logo a {
+  text-decoration: none;
+  color: #242635;
+}
+
+.logo a:visited {
+  text-decoration: none;
+  color: #242635;
+}
+
 .topnav {
   list-style: none;
   display: flex;
@@ -179,6 +189,11 @@
   .topnav.responsive a {
     display: flex;
     height: 48px;
+  }
+
+  .topnav.responsive a:hover {
+    background-color: #5C7CFA;
+    color: black;
   }
 
   .topnav.responsive .nav_item:nth-of-type(4) {
