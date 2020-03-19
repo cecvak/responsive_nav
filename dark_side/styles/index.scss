@@ -41,16 +41,12 @@
 }
 
 .page_main {
-    // width: 60%;
     max-width: 864px;
     width: 100%;
-    // height: 100%;
     display: flex;
     flex-direction: column;
-    // justify-content: space-between;
     align-content: center;
     align-items: center;
-    // flex-wrap: wrap;
 }
 
 .navigation {
@@ -59,8 +55,6 @@
     width: 100%;
     margin-bottom: 50px;
     margin-top: 50px;
-    // height: 100%;
-    // flex-grow: 1;
 }
 
 .topnav {
@@ -93,10 +87,6 @@
     color: #242635;
 }
 
-.icon_detail {
-    color: #242635;
-}
-
 .logo {
     @include font_logo;
 }
@@ -106,9 +96,6 @@
     color: #ffffff;
 
 }
-
-
-
 
 .icon_first {
     filter: invert(100%) sepia(3%) saturate(12%) hue-rotate(103deg) brightness(105%) contrast(105%);
@@ -122,27 +109,13 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    // align-content: center;
     align-items: center;
     height: 100%;
     width: 100%;
-    // flex-wrap: wrap;
-    // margin: auto;
-    // margin-top: auto;
-
 }
-
-// .content_text {
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: center;
-//     align-items: center;
-//     width: 100%;
-// }
 
 .main_header {
     @include h1;
-    // margin-top: auto;
 }
 
 .main_text {
@@ -152,8 +125,6 @@
     max-width: 574px;
     width: 100%;
     text-align: center;
-    // margin-top: auto;
-    // flex-grow: 1;
 }
 
 .overlay {
@@ -235,32 +206,6 @@
         display: flex;
         height: 48px;
     }
-
-
-    // .topnav.responsive {
-    //     display: flex;
-    //     align-items: flex-end;
-    //     flex-direction: column;
-    // }
-
-    // .topnav.responsive .icon {
-    //     display: flex;
-    //     justify-content: flex-end;
-    // }
-
-    // .topnav.responsive .icon_first {
-    //     display: none;
-    // }
-
-    // .topnav.responsive a {
-    //     display: flex;
-    //     height: 48px;
-    // }
-
-    // .topnav.responsive .nav_item:nth-of-type(4) {order: 1;}
-    // .topnav.responsive .nav_item:nth-of-type(1) {order: 2;}
-    // .topnav.responsive .nav_item:nth-of-type(2) {order: 3;}
-    // .topnav.responsive .nav_item:nth-of-type(3) {order: 4;}
 
 }
 
