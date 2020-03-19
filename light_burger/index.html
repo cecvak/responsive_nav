@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipes</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:700|Poppins:500|Source+Sans+Pro&display=swap" rel="stylesheet"></head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <body class="page">
+    
+    <main class="page_main">
+
+        <section class="main_left">
+            <nav class="navigation">
+                <div class="logo">Head.</div>
+                <ul class="topnav" id="myTopnav">
+                    
+                    <li class="nav_item"><a href="#works">Works</a></li>
+                    <li class="nav_item"><a href="#works">Services</a></li>
+                    <li class="nav_item"><a href="#works">Contacts</a></li>
+                    <li class="nav_item"><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars icon_detail"></i>
+                      </a></li>
+                </ul>
+            </nav>
+            <div class="main_left__text">
+                <h1 class="main_header">Recipes</h1>
+                <p class="main_text">Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacus, vitae ullamcor.</p>
+            </div>
+            <div class="main_left__icon"><img src="images/arrow.svg" alt=""></div>
+        </section>
+
+        <section class="main_right">
+            <div class="main_right__image">
+                <img src="images/soup.png" alt="" class="image">
+            </div>
+        </section>
+
+    </main>
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+    </script>
+        
+
+</body>
+</html>
