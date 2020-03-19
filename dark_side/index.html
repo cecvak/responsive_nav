@@ -3,11 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Musician</title>
+    <title>Japan</title>
     <link rel="stylesheet" href="styles/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:700|Poppins:500|Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
 </head>
-<body>
-    
+<body class="page">
+    <main class="page_main">
+        <nav class="navigation">
+            <p class="logo">Head.</p>
+            <!-- <div id="myNav" class="overlay"> -->
+
+                <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
+
+                <!-- <ul class="overlay-content"> -->
+                <ul class="topnav" id="myTopnav">
+                    <li class="nav_item"><a href="#works">Works</a></li>
+                    <li class="nav_item"><a href="#works">Services</a></li>
+                    <li class="nav_item"><a href="#works">Contacts</a></li>
+                    <li class="nav_item"><a href="#"><img src="images/Icon.svg" class="icon_first" alt=""></a></li>
+
+                    <li class="nav_item"><a href="javascript:void(0);" class="icon" onclick="openNav()">
+                        <img src="images/Icon.svg">
+                    </a></li>
+                </ul>
+            <!-- </div> -->
+        </nav>
+
+        <section class="main_content">
+            <!-- <div class="content_text"> -->
+                <h1 class="main_header">Japan</h1>
+                <p class="main_text">Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec.<br> Donec viverra eleifend lacus, vitae ullamcor.</p>
+            <!-- </div> -->
+            <div class="main_image"><img src="images/fuji.png" alt="" class="image_fuji"></div>
+        </section> 
+    </main>
+
+    <script>
+        function openNav() {
+          document.getElementById("myNav").style.width = "100%";
+        }
+        
+        function closeNav() {
+          document.getElementById("myNav").style.width = "0%";
+        }
+    </script>
+      <!-- <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+    </script> -->
 </body>
 </html>
